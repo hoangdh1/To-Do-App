@@ -1,0 +1,48 @@
+.tasks {
+  margin-top: 60px;
+  //   padding: 30px;
+  border: 1px solid black;
+  margin-bottom: 16px;
+
+  .task-title {
+    padding: 8px;
+    // margin-top: 20px;
+    margin-bottom: 8px;
+    // border-bottom: 1px solid black;
+
+    .detail-btn {
+      margin-right: 20px;
+    }
+  }
+
+  .task-item {
+    // margin-bottom: 10px;
+    // border-top: 1px solid black;
+
+    .task-name {
+      margin-bottom: 8px;
+      padding: 8px 24px;
+    }
+
+    .todo {
+      width: 100%;
+      padding: 24px;
+
+      .description {
+        margin-bottom: 30px;
+      }
+    }
+
+    .more-info {
+      margin-bottom: 30px;
+
+      .due-date {
+        padding-right: 40px;
+      }
+    }
+
+    .update-btn {
+      margin: 5px 12px;
+    }
+  }
+}
